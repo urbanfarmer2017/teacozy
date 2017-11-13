@@ -1,0 +1,97 @@
+* {
+  font-family: Helvetica;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+.header {
+  display:flex;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+}
+
+.header img {
+  display: flex;
+  height: 50px;
+  margin: 10px;
+}
+
+.header ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+#mission .mission2 {
+  background-image: url("../images/background.jpg");
+  width: 1200px;
+  height: 700px;
+}
+
+.mission2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 10px;
+}
+
+
+.open h2 {
+  text-align: center;
+}
+
+.open h5 {
+  text-align: center;
+}
+
+#feature {
+  display: flex;
+  width: 1000px;
+}
+
+#feature img {
+  width: 300px;
+  height: 200px;
+}
+
+#feature .feature1 {
+  display: block;
+  width: 1000px;
+}
+
+#feature .feature2 {
+  display: block;
+  width: 1000px;
+}
+
+.feature1 .berry {
+  display: inline-block;
+  margin: 10px;
+}
+
+.feature1 .spice {
+  display: inline-block;
+  margin: 10px;
+}
+
+.feature1 .donut {
+  display: inline-block;
+  margin: 10px;
+}
+
+
+.feature2 .myrtle {
+  display: inline-block;
+  margin: 10px;
+}
+
+.feature2 .bedford {
+  display: inline-block;
+  margin: 10px;
+}
