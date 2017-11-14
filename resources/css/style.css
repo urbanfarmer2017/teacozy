@@ -54,11 +54,10 @@
   height: 700px;
 }
 
-#feature .flex-container items {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
+#feature .flex-container {
+  padding: 5px;
 }
+
 #feature img {
   width: 300px;
   height: 200px;
