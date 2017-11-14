@@ -18,8 +18,8 @@
 }
 
 .header ul {
-  display: flex;
-  justify-content: flex-end;
+  text-align: right;
+  flex-grow: 1;
 }
 
 .header li {
@@ -41,7 +41,6 @@
   margin: 10px;
 }
 
-
 .open h2 {
   text-align: center;
 }
@@ -55,43 +54,17 @@
   width: 1000px;
 }
 
+#feature .flex-container items {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
 #feature img {
   width: 300px;
   height: 200px;
 }
 
-#feature .feature1 {
-  display: block;
-  width: 1000px;
-}
-
-#feature .feature2 {
-  display: block;
-  width: 1000px;
-}
-
-.feature1 .berry {
-  display: inline-block;
-  margin: 10px;
-}
-
-.feature1 .spice {
-  display: inline-block;
-  margin: 10px;
-}
-
-.feature1 .donut {
-  display: inline-block;
-  margin: 10px;
-}
-
-
-.feature2 .myrtle {
-  display: inline-block;
-  margin: 10px;
-}
-
-.feature2 .bedford {
+#feature .item {
   display: inline-block;
   margin: 10px;
 }
